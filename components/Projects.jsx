@@ -48,8 +48,8 @@ const projects = [
           name:"Porfolio",
           image:porfolio,
           description:'I have designed and developed this captivating portfolio website with a specific purpose in mind: to seamlessly transition from React to Next.js while effectively showcasing my work.'
-          ,github:'test',
-          demo:'https://nuisiblexpert.fr/',
+          ,github:'https://github.com/ademzeri/Porfolio',
+          demo:'https://porfolio-alpha-tawny.vercel.app/',
           techs:[
             {title : 'NextJs',url  :next},{title : 'Tailwind',url  :tailwind},{title : 'Material',url  :material},{title : 'Figma',url  :figma}]
           },
