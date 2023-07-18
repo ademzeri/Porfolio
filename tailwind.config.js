@@ -7,12 +7,21 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        RobotoSlab: ['Roboto Slab', 'serif'],
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        prim:'#176B87',
+        background:'#001c30',
+        sec:'#64CCC5',
+        ter: '#DAFFFB',
+      },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
