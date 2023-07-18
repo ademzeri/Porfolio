@@ -13,7 +13,7 @@ function AboutMe() {
     className='flex flex-col justify-center pt-32'
     >      <div className='flex flex-col gap-2 text-center'>
           <h1 className="mx-auto text-transparent bg-clip-text bg-gradient-to-r to-sec from-ter mb-4 font-extrabold  text-5xl lg:text-6xl">ADEM ZERII</h1>
-          <h3 className='mx-auto md:text-2xl text-xl'>Junior Web Developer</h3>
+          <h3 className='mx-auto md:text-2xl text-xl text-white'>Junior Web Developer</h3>
           <p className='md:w-2/5 mx-auto w-4/6 text-white'>
           I'm Adem, a computer science student driven by a childhood passion for technology. I'm actively enhancing my web development skills through daily learning and freelance projects.
           </p>

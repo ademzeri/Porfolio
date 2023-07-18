@@ -18,15 +18,15 @@ function Project(props) {
 
   return (
     
-<div className="max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 w-full ">
+<div className="max-w-lg  border  rounded-lg shadow bg-gray-800 border-gray-700 w-full ">
     <a href={props.details.demo} target="_blank">
     <Image className=" w-full rounded-2xl" src={props.details.image} alt='no'/>
     </a>
     <div className="p-5">
         <a href={props.details.demo}>
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-sec">{props.details.name}</h5>
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-sec">{props.details.name}</h5>
         </a>
-        <p className="font-normal text-gray-700 dark:text-gray-400">{props.details.description}</p>
+        <p className="font-normal text-gray-400">{props.details.description}</p>
         <div className='flex flex-row w-full rounded-xl  text-white items-center justify-start gap-10 py-4 flex-wrap mb-2 mx-6 '>
           {techs}
         </div>
